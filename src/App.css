@@ -6,6 +6,11 @@ body{
     font-family: 'Varela Round', sans-serif;
 }
 
+::selection{
+  background-color: #5b59d7;
+  color: white;
+}
+
 ::-webkit-scrollbar {
     width: 15px;
 }
