@@ -6,6 +6,23 @@ body{
     font-family: 'Varela Round', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #b6aaeb;
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background:  rgb(130, 107, 233);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(113, 74, 221);
+}
+
 .container{
     display: grid;
     grid-template-columns: 45% 45%;
