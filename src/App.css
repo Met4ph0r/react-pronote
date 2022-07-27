@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color: rgb(120, 129, 224);
+    color:white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+    margin-inline: 30px;
+}
+
+.input, .output{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.input>div, .output>div{
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+textarea{
+    /* min-width: 300px; */
+    width: 35vw;
+    height: 65vh;
+    font-size: 20px;
+    outline: none;
+    background-color: #ffffffc5;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px;
+    box-shadow: 6px 6px 6px #333;
+}
+
+.output-text{
+    background-color: #a393ff;
+    color: #fff;
+    border-radius: 20px 20px 20px 20px;
+}
+
+h1{
+    margin-left: 20px;
+}
+
+button{
+  padding: 15px 30px;
+  /* min-width:300px; */
+  width:38vw;
+  color: white;
+  border: none;
+  border-radius: 0px 0px 20px 20px;
+  font-weight: 700;
+  background-size: 200% auto;
+  background-image: linear-gradient(45deg, #2b10c2a3 50%, #e8cdff47  10%);
+  cursor: pointer;
+  user-select: none;
+  transition: 300ms;
+}
+
+button:hover {
+    background-position: 20%;
+    /* color: black; */
+}
+
+button:active {
+  background-position: right;
+  transform: scale(0.95);
+  color: black;
+}
